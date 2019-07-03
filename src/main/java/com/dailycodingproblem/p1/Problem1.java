@@ -10,17 +10,17 @@ import java.util.Set;
  */
 
 
-public class Problem1 {
+class Problem1 {
 
     static Boolean addsToK(Integer K, Integer... list) {
 
 
-        Set<Integer> possibleKs = new HashSet<Integer>();
-        for (int i = 0; i < list.length; i++) {
-            if (possibleKs.contains(list[i])) {
+        Set<Integer> possibleKs = new HashSet<>();
+        for (Integer integer : list) {
+            if (possibleKs.contains(integer)) {
                 return true;
             } else {
-                possibleKs.add(K - list[i]);
+                possibleKs.add(K - integer);
             }
         }
         return false;
