@@ -1,6 +1,7 @@
 package com.dailycodingproblem.p1;
 
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 /**
@@ -9,18 +10,18 @@ import java.util.Set;
  * Bonus: Can you do this in one pass?
  */
 
-
 class Problem1 {
 
-    static Boolean addsToK(Integer K, Integer... list) {
+    static Boolean addsToK(int K, int... list) {
 
+        Objects.requireNonNull(list, "list cannot be Null in Problem1:addsToK");
 
         Set<Integer> possibleKs = new HashSet<>();
-        for (Integer integer : list) {
-            if (possibleKs.contains(integer)) {
+        for (int l : list) {
+            if (possibleKs.contains(l)) {
                 return true;
             } else {
-                possibleKs.add(K - integer);
+                possibleKs.add(K - l);
             }
         }
         return false;
