@@ -10,23 +10,23 @@ import org.junit.rules.ExpectedException;
 
 public class Problem1Test {
 
-  @Test
+  @Rule
+  public ExpectedException expectedException = ExpectedException.none();
+
+  @Test(timeout = 5)
   public void addsToKSolutionIsTrue() {
     assertTrue(addsToK(17, 10, 15, 3, 7));
   }
 
-  @Test
+  @Test(timeout = 5)
   public void addsToKSolutionIsFalse() {
     assertFalse(addsToK(100, 10, 15, 3, 7));
   }
 
-  @Test
+  @Test(timeout = 5)
   public void addsToKEdgeCases() {
     assertFalse(addsToK(1));
   }
-
-  @Rule
-  public ExpectedException expectedException = ExpectedException.none();
 
   @Test
   public void addsToKListNullException() {
