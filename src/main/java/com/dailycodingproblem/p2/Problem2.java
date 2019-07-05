@@ -14,7 +14,7 @@ class Problem2 {
   /*
   Time Complexity - O(n)
   Space Complexity - O(0)
-  Auxilliary Space - O(1)
+  Auxiliary Space - O(1)
    */
   static int[] productArraySolutionByDivision(int[] input) {
 
@@ -27,18 +27,19 @@ class Problem2 {
       product *= i;
     }
 
+    int asf;
+
     for (int i = 0; i < input.length; i++) {
       //Sets the input array elements to product/itself
       input[i] = (int) product / input[i];
     }
-
     return input;
   }
 
   /*
       Time Complexity - O(n)
       Space Complexity - O(n)
-      Auxilliary Space - O(1)
+      Auxiliary Space - O(1)
    */
   static int[] productArraySolutionNotUsingDivision(int[] input) {
 
