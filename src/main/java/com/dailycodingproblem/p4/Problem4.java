@@ -1,4 +1,4 @@
-package com.dailycodingproblem.p5;
+package com.dailycodingproblem.p4;
 
 import java.util.List;
 import java.util.Objects;
@@ -10,7 +10,7 @@ import java.util.Objects;
  * in-place.
  */
 
-class Problem5 {
+class Problem4 {
 
   /*
   Time Complexity - O(n)
@@ -19,7 +19,7 @@ class Problem5 {
    */
   static int findMissingPositiveIntegerSolution(List<Integer> input) {
     Objects.requireNonNull(input,
-        "input should not be null at Problem5.findMissingPositiveIntegerSolution");
+        "input should not be null at Problem4.findMissingPositiveIntegerSolution");
 
     int sizeOfArray = input.size();
     int i = 0;
