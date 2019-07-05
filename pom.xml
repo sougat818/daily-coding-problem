@@ -87,7 +87,7 @@
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>versions-maven-plugin</artifactId>
         <configuration>
-          <rulesUri>file:///Users/sougata/github/daily-coding-problem/rules.xml</rulesUri>
+          <rulesUri>file://${project.basedir}/rules.xml</rulesUri>
         </configuration>
         <executions>
           <execution>
