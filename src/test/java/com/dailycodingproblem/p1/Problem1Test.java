@@ -13,7 +13,7 @@ public class Problem1Test {
   @Rule
   public ExpectedException expectedException = ExpectedException.none();
 
-  @Test(timeout = 5)
+  @Test(timeout = 10)
   public void addsToKSolutionIsTrue() {
     assertTrue(addsToK(17, 10, 15, 3, 7));
   }
@@ -23,7 +23,7 @@ public class Problem1Test {
     assertFalse(addsToK(100, 10, 15, 3, 7));
   }
 
-  @Test(timeout = 5)
+  @Test(timeout = 10)
   public void addsToKEdgeCases() {
     assertFalse(addsToK(1));
   }
