@@ -12,7 +12,7 @@ import org.junit.rules.Timeout;
 public class Problem2Test {
 
   @Rule
-  public Timeout globalTimeout = new Timeout(5, TimeUnit.MILLISECONDS);
+  public Timeout globalTimeout = new Timeout(10, TimeUnit.MILLISECONDS);
 
   @Test
   public void productArrayTest1() {
