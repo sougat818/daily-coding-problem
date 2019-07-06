@@ -1,6 +1,6 @@
 Solutions to Questions from https://www.dailycodingproblem.com/
 [![DepShield Badge](https://depshield.sonatype.org/badges/sougat818/daily-coding-problem/depshield.svg)](https://depshield.github.io)
-[![codecov](https://codecov.io/gh/sougat818/daily-coding-problem/branch/master/graph/badge.svg)](https://codecov.io/gh/sougat818/daily-coding-problem)
+[![codecov](https://codecov.io/gh/sougat818/daily-coding-problem/branch/master/graph/badge.svg)](https://codecov.io/gh/sougat818/daily-coding-problem) [![Join the chat at https://gitter.im/daily-coding-problem/community](https://badges.gitter.im/daily-coding-problem/community.svg)](https://gitter.im/daily-coding-problem/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 - [x] Problem 1: [Solution](https://github.com/sougat818/daily-coding-problem/blob/master/src/main/java/com/dailycodingproblem/p1/Problem1.java)
 > Given a list of numbers and a number k, return whether any two numbers from the list add up to k. For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17. Bonus: Can you do this in one pass?
