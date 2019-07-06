@@ -7,6 +7,8 @@ Solutions to Questions from https://www.dailycodingproblem.com/
 - [ ] Problem 3: 
 - [x] Problem 4: [Solution](https://github.com/sougat818/daily-coding-problem/blob/master/src/main/java/com/dailycodingproblem/p4/Problem4.java)
 > Given an array of integers, find the first missing positive integer in linear time and constant space. In other words, find the lowest positive integer that does not exist in the array. The array can contain duplicates and negative numbers as well.For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should give 3.You can modify the input array in-place.
+- [x] Problem 7: [Solution](https://github.com/sougat818/daily-coding-problem/blob/master/src/main/java/com/dailycodingproblem/p7/Problem7.java)
+> Given the mapping a = 1, b = 2, ... z = 26, and an encoded message, count the number of ways it can be decoded. For example, the message '111' would give 3, since it could be decoded as 'aaa', 'ka', and 'ak'. You can assume that the messages are decodable. For example, '001' is not allowed.
 
 
 
